@@ -26,6 +26,17 @@
              width: 100%;           
              text-align: center;
         }
+        button{
+            background-color: black;
+            padding: 10px;
+            color: white;
+            font-size: 1em;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+            
+        }
     </style>
     
 </head>
@@ -37,10 +48,19 @@
     <h2>Qualification:<strong>M.Sc(IT)</strong></h2>
     <h2>Hobies: <strong>Watching Movies, Playing Footbaal</strong></h2>
     
+        <div class="bye">
+            <button type="button" onclick="goodbye();">Click Me</button>
+        </div>
     </main>
     <footer>
         <h1>Thank You!</h1>
     </footer>
+    
+    <script>
+        function goodbye() {
+            alert("GoodBye! Thanks to visit.");
+        }
+    </script>
     
 </body>
 </html>
